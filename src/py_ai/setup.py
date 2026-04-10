@@ -23,7 +23,7 @@ setup(
         ],
     },
     entry_points={
-        'console_scripts': [
-        ],
+        'console_scripts': ['test_node = py_ai.test_node:main',
+        ], 
     },
 )
